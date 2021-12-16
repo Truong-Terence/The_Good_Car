@@ -2,10 +2,10 @@ class CarsController < ApplicationController
   def index
     @cars = Car.all
 
-    @markers = @flats.geocoded.map do |flat|
+    @markers = @cars.geocoded.map do |car|
       {
-        lat: flat.latitude,
-        lng: flat.longitude
+        lat: car.latitude,
+        lng: car.longitude
       }
     end
   end
