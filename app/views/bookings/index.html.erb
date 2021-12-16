@@ -1,0 +1,12 @@
+</div>
+      <% @bookings.each do |booking| %>
+        <div>
+          <%= booking.user.email %>
+          <%= booking.car.model %> :
+          <%= booking.starts_at %> to
+          <%= booking.ends_at %>
+          <%= booking.accepted %>
+        </div>
+      <% end %>
+    </div>
+  </div>

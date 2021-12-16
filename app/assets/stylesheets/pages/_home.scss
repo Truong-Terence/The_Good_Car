@@ -1,4 +1,13 @@
-.test {
-  justify-content: center;
-  align-items: center;
+body {
+  background: linear-gradient(black, #050505, #181b1b, #21282A);
+  color: whitesmoke;
+  overflow-x: hidden;
+}
+
+.home-tag {
+  width: 150px;
+  margin: 2rem 0;
+}
+.home-text{
+  text-align: center;
 }

@@ -1,16 +1,27 @@
 <%= render 'shared/banner' %>
-<div class="d-flex justify-content-around">
-  <div class="test">
-    <i class="fas fa-users"></i>
-    <p>From person to person</p>
-  </div>
-  <div>
-    <i class="fas fa-shield-alt"></i>
-    <p>Multi-risk insurance</p>
 
+<div class="container">
+  <div class="row">
+    <div class="col d-flex justify-content-around">
+      <%= image_tag("handshake.svg", class:"home-tag") %>
+    </div>
+    <div class="col d-flex justify-content-around">
+      <%= image_tag("shield.svg", class:"home-tag") %>
+    </div>
+    <div class="col d-flex justify-content-around">
+      <%= image_tag("world.svg", class:"home-tag") %>
+    </div>
   </div>
-  <div>
-    <i class="fas fa-map-marked-alt"></i>
-    <p>Available in more than 80 cities in France</p>
+
+  <div class="row">
+    <div class="col d-flex justify-content-around home-text">
+      <h3>Person to person</h3>
+    </div>
+    <div class="col d-flex justify-content-around home-text">
+      <h3>Multi-risk insurance</h3>
+    </div>
+    <div class="col d-flex justify-content-around home-text">
+      <h3>Available in more than 80 countries</h3>
+    </div>
   </div>
 </div>

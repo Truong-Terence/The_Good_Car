@@ -1,0 +1,11 @@
+{
+  "apps": [
+    {
+      "app_id": "app_77249ff3-ef84-4860-9f14-b2b5bd9ab9d5",
+      "org_id": "user_c063a849-088d-429f-a124-e3c90cdbc9bb",
+      "deploy_url": "https://push-n2-par-clevercloud-customers.services.clever-cloud.com/app_77249ff3-ef84-4860-9f14-b2b5bd9ab9d5.git",
+      "name": "the_good_car",
+      "alias": "the_good_car"
+    }
+  ]
+}
