@@ -2,6 +2,13 @@ body {
   background: linear-gradient(black, #050505, #181b1b, #21282A);
   color: whitesmoke;
   overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+  h1 {
+    font-family: 'Bakbak One', cursive;
+  }
+  h2, h3, h4 {
+    font-family: 'Roboto Condensed', sans-serif;
+  }
 }
 
 .home-tag {
@@ -10,4 +17,17 @@ body {
 }
 .home-text{
   text-align: center;
+}
+
+.btn-index {
+  border-radius: 30px;
+  padding: .5rem .8rem .5rem .8rem;
+  background: linear-gradient(#FE6F24, #F93D14);
+  transition: all 300ms ease-in-out;
+  font-weight: bold;
+  margin-left: .5rem;
+  &:hover{
+    background: linear-gradient(#F93D14, #FE6F24);
+    transform: scale(104%);
+  }
 }

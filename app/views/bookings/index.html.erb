@@ -1,12 +1,24 @@
-</div>
-      <% @bookings.each do |booking| %>
-        <div>
-          <%= booking.user.email %>
-          <%= booking.car.model %> :
-          <%= booking.starts_at %> to
-          <%= booking.ends_at %>
-          <%= booking.accepted %>
+<div class="container">
+  <div class="row g-0">
+
+    <div class="col-6">
+     <% @bookings.each do |booking| %>
+        <div class="card text-center my-4">
+          <div class="card-header d-flex justify-content-around align-items-center">
+            <h4 class="card-title"><%= booking.car.brand %></h4>
+            <h3><%= booking.car.model %></h3>
+          </div>
+          <div class="card-body d-flex justify-content-center align-items-center">
+            <p class="card-text"><%= booking.starts_at %> to <%= booking.ends_at %></p>
+            <div>
+              <%= booking.accepted %>
+            </div>
+          </div>
+          <div class="card-footer text-muted">
+          <i class="fas fa-user-alt"> &nbsp;&nbsp;</i><%= booking.user.email %>
+          </div>
         </div>
       <% end %>
     </div>
   </div>
+</div>

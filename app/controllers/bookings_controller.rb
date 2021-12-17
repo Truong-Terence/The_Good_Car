@@ -15,7 +15,7 @@ class BookingsController < ApplicationController
     @booking.user = current_user
     @booking.save!
 
-    redirect_to bookings_path
+    redirect_to car_path(@car), notice: "Your car has been booked !"
   end
 
   private
