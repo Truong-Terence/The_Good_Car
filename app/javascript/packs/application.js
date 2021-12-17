@@ -31,10 +31,13 @@ import { initMapbox } from '../plugins/init_mapbox';
 
 // -------FlatPickr-------
 // import { initFlatpickr } from "../plugins/flatpickr";
+// -------Date Picker-----
+// import { initTotalPrice } from '../components/price_calcul';
 
 document.addEventListener('turbolinks:load', () => {
   // Call your functions here, e.g:
   // initSelect2();
   initMapbox();
+  // initTotalPrice();
   // initFlatpickr();
 });
