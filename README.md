@@ -1,3 +1,5 @@
+# Final Exam with Le Wagon, time given : 8 hours.
+
 # Rails Rent Cars
 
 Dans cet exercice, vous devez implémenter des fonctionnalités dans une application web `rails` à partir du cahier des charges spécifié ci-dessous et correspondant à votre sujet :
